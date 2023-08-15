@@ -1,1 +1,1 @@
-# main.js
+# javascript-learning from thinkful
