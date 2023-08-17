@@ -10,6 +10,7 @@ For example:
                  cart.price = 6.49;
                  cart.flavor = "lemongrass";
                  
+                 
 **let**: Let should be used when you know you will have to reassign a value. You'll typically see these being reassigned in "for loops" and "if statements".
 
 **var**: Var should only be used when you're working with older code that is already using it. Beyond that, it should be avoided as it was primarily used in the past before "let" was introduced. 
