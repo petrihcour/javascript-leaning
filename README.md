@@ -4,9 +4,9 @@
 
 **const**: Const should be what is primarily used. Const variables cannot be reassigned. This can help keep your code cleaner. A note, however, is you can change the values inside of an object or array created with const.  
 
-        Example: `const cart = { item: "kombucha", price: 5.99, flavor: "raspberry" };
+        Example: const cart = { item: "kombucha", price: 5.99, flavor: "raspberry" };
                  cart.price = 6.49;
-                 cart.flavor = "lemongrass";`
+                 cart.flavor = "lemongrass";
                  
 **let**: Let should be used when you know you will have to reassign a value. You'll typically see these being reassigned in "for loops" and "if statements".
 
