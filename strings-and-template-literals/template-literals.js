@@ -19,7 +19,6 @@ function listAllItems(products) {
   }
 
   if (products.length === 2) {
-    products.join("");
     return `There are 2 items for sale: ${products[0].name} and ${products[1].name}.`;
   }
 
