@@ -4,7 +4,9 @@
 
 **const**: Const should be what is primarily used. Const variables cannot be reassigned. This can help keep your code cleaner. A note, however, is you can change the values inside of an object or array created with const.  
 
-        Example: const cart = { item: "kombucha", price: 5.99, flavor: "raspberry" };
+For example:
+
+                 const cart = { item: "kombucha", price: 5.99, flavor: "raspberry" };
                  cart.price = 6.49;
                  cart.flavor = "lemongrass";
                  
